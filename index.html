@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1">
+    <title>Vice Grips</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!--Font Awesome Icons-->
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"></script>
+
+    <!--CSS-->
+    <link href="./assets/css/styles.css" rel="stylesheet">
+
+    <!--Animate on Scroll-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+
+<body>
+    <!--Navigation Section-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container-fluid text-center">
+            <a
+            href='index.html'
+            class="navbar-brand">
+            <img
+            src="./assets/images/viceteamlogolarge.PNG"
+            width="50" height="50"
+            alt="brand logo"/>
+            Vice Grips
+        </a>
+
+            <button 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navbarResponsive" 
+                class="navbar-toggler"> 
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarResponsive" >
+                <ul class="navbar-nav ml-auto">
+
+
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">
+                            About
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#team" class="nav-link">
+                            Team
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#documentation" class="nav-link">
+                            Documentation
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">
+                            Contact Us
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+<div id="particles-js"></div>
+
+
+<div class="carousel-caption" >
+    <p data-aos='zoom-in' data-aos-duration="2000" data-aos-once="true"></p>
+    <h1 class="display-2" data-aos='zoom-in' data-aos-duration="1000" data-aos-once="true">VICE</h1>
+    <h3 data-aos='zoom-in' data-aos-duration="2000" data-aos-once="true"></h3>
+    <h3>(This website is under construction)</h3>
+</div>
+
+<div id= "about" data-spy="scroll" data-target="#navbarResponsive" data-offset="50" class="container-fluid padding">
+    <div class="row about text-center">
+        
+        <div class="col-12">
+            <h1 class="display-4" data-aos='zoom-in' data-aos-duration="1500" data-aos-once="true">What is VICE?</h1>
+        </div>
+        <!--<hr>-->
+
+        <div class="col-12" data-aos='zoom-in' data-aos-duration="1500" data-aos-once="true">
+            <p class="abouttext">VICE is a software tool constructed to organize, manage, and raise 
+                efficiency of robust firmware validation processes. This architecture  will be implemented
+                through a powerful and secure web application, utilizing cloud-based architectures.
+            </p>
+
+            <p class="abouttext">Using VICE the user will be able to test existing  and new hardware platforms
+                while easily tracking the status of each platform. Register firmware model, brand, configuration, and debugging
+                instrumentation is easily accessible through the VICE management tool. </p>
+        </div>
+    </div>
+    <div class="container-fluid padding">
+    
+        <div class="row text-center">
+            <div class="col-lg" id = "aboutbutton" data-aos='zoom-in' data-aos-duration="1500" data-aos-once="true">
+                <button type="button" class="btn btn-secondary btn-lg">Code</button>
+                <button type="button" class="btn btn-secondary btn-lg">Demo</button>
+            </div>
+            
+        </div>
+    </div>
+
+        <!--Meet Staff Members Section-->
+    <!--
+        Standard styling with Bootstrap grid using AOS on load in. 
+    -->
+    <div id= "team" class="container-fluid padding" >
+        <div class="row members text-center">
+            <div class="col-12">
+                <h1 class="display-4">
+                    Meet the Team
+                </h1>
+            </div>
+            <!--<hr>-->
+            
+        </div>
+    </div>
+
+    <!--Cards-->
+    <!--
+        Standard styling with Bootstrap grid using AOS on load in. This section uses multiple <div> elements to organize each staff
+        card.
+        To Update: 
+            To update member NAME element -> Locate <h4 class="card-title"> and change text before ending tag
+            
+            To update member BIO element -> Locate <p class="card-text"> and change text before ending tag
+    -->
+    <div class="container-fluid" style="justify-content: center;">
+        <div class="row text-center">
+            <div class="col-lg" id="card-id">
+                <div class="card" style="width: 19rem;">
+                    <img src="./assets/images/ianambos.JPG" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Ian Ambos</h5>
+                        <p class="card-text">Team Lead and Editor</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">I enjoy fencing, rock climbing, surfing, and playing video games in my spare time.
+                        </li>
+                    </ul>
+                    <div class="card-body">
+                        <i class="fab fa-github"></i>
+                        <a href="https://github.com/xlilos" class="card-link">Github</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg" id="card-id">
+                <div class="card" style="width: 19rem;">
+                    <img src="./assets/images/ethanbaranowski.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Ethan Baranowski</h5>
+                        <p class="card-text">Website Manager and Editor</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Along with exploring new tech, I enjoy being outdoors and practicing archery.
+                            Additionally, I like to experiment with synthesizers and other electronic instruments.
+                        </li>
+
+                    </ul>
+                    <div class="card-body">
+                        <i class="fab fa-github"></i>
+                        <a href="https://github.com/ddo5" class="card-link">Github</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg" id="card-id">
+                <div class="card" style="width: 19rem;">
+                    <img src="./assets/images/joshua_professional.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Joshua Melo</h5>
+                        <p class="card-text">Project Release Manager</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">In my free time, I like to work on my cars, hangout with friends, and play video games.
+                            Additionally, I like to longboard around campus.
+                        </li>
+
+                    </ul>
+                    <div class="card-body">
+                        <i class="fab fa-github"></i>
+                        <a href="https://github.com/Joshua-Melo" class="card-link">Github</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg" id="card-id">
+                <div class="card" style="width: 19rem;">
+                    <img src="./assets/images/taylerskirvin.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Tayler Skirvin</h5>
+                        <p class="card-text">Architect</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Aside from working on computers, I enjoy playing guitar and playing jazz music. Biking and cooking
+                            are also interests I explore in my spare time.
+                        </li>
+
+                    </ul>
+                    <div class="card-body">
+                        <i class="fab fa-github"></i>
+                        <a href="https://github.com/tds325" class="card-link">Github</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+    
+    
+    <div id= "documentation" data-spy="scroll" data-target="#navbarResponsive" data-offset="50" class="container-fluid padding">
+        <div class="row about text-center">
+            
+            <div class="col-12">
+                <h1 class="display-4" data-aos='zoom-in' data-aos-duration="1500" data-aos-once="true">Documentation</h1>
+            </div>
+            <!--<hr>-->
+    
+            <div class="col-12" data-aos='zoom-in' data-aos-duration="1500" data-aos-once="true">
+                <p class="doctext">Future project documentation will be found here!
+                </p>
+            </div>
+        </div>
+        <div class="container-fluid padding">
+        
+            <div class="row text-center">
+                <div class="col-lg" id = "docbutton" data-aos='zoom-in' data-aos-duration="1500" data-aos-once="true">
+                    <!-- <button type="button" class="btn btn-secondary btn-lg">Code</button>
+                    <button type="button" class="btn btn-secondary btn-lg">Demo</button> -->
+                </div>
+                
+            </div>
+        </div>
+
+    <footer>
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <div class="col=md-4">
+                    <hr>
+                </div>
+                
+                <div class="col-md-4">
+                </div>
+
+                <div class="col-md-4">
+                    <h5 id="contact">Contact Us</h5>
+                      
+                      <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="basic-addon2">
+                        <span class="input-group-text" id="basic-addon2">@example.com</span>
+                      </div>
+                      
+                      
+                      <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="First Name" aria-label="First Name">
+                        <input type="text" class="form-control" placeholder="Last Name" aria-label="Last Name">
+                      </div>
+                      
+                      <div class="input-group">
+                        <span class="input-group-text">How can we help?</span>
+                        <textarea class="form-control" aria-label="With textarea"></textarea>
+                      </div>
+                </div>
+
+                <div class="col-md-4">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+<script src="./assets/js/particles.json"></script>
+<script src="./assets/js/app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+</body>
+</html>
